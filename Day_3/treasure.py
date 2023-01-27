@@ -1,32 +1,45 @@
 print("                                         ")
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
 print("*****************************************")
 print("Designed by Debanjan")
 print("*****************************************")
-print("Welcome to Treasure Island \n"
-      "Your Mission is to find the tressure")
-choice1 = input("Left or Right ? ")
-choice2 = ""
-choice3 = ""
-if choice1[0]=="L" or choice1[0]=="l":
-    choice2 = input("swim or wait ? ")
-    if choice2[0]=="W" or choice2[0]=="w":
-        choice3 = input("Which door ? (Red, Blue, Yellow or Anything) :")
-        if choice3[0]=="R" or choice3[0]=="r":
-            print("Burned by fire\n"
-                "Game Over")
-        elif choice3[0]=="B" or choice3[0]=="b":
-            print("Eaten by beasts\n"
-                "Game Over")
-        elif choice3[0]=="Y" or choice3[0]=="y":
-            print("You Win!")
-        else:
-            print("Game Over")
-    else: 
-     print("Attacked by trout\n"
-           "Game Over")
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+choice1 = input('You\'re at a cross road. Where do you want to go? Type "left" or "right" \n').lower()
+if choice1 == "left":
+  choice2 = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
+  if choice2 == "wait":
+    choice3 = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? \n").lower()
+    if choice3 == "red":
+      print("It's a room full of fire. Game Over.")
+    elif choice3 == "yellow":
+      print("You found the treasure! You Win!")
+    elif choice3 == "blue":
+      print("You enter a room of beasts. Game Over.")
+    else:
+      print("You chose a door that doesn't exist. Game Over.")
+  else:
+    print("You get attacked by an angry trout. Game Over.")
 else:
-    print("Fall into a hole\n"
-          "Game Over")
-
-    
-    
+  print("You fell into a hole. Game Over.")
