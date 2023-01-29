@@ -18,11 +18,6 @@
 
 user_choice = int(input("Which method you wanna try (1-without function, 2-using function: "))
 
-#For method 2
-# total_height = 0
-# number_of_students = 0
-# average_height =0 
-
 if(user_choice == 1):
   #method 1 without using any build in function  
   # Converting Decimal heights to Integer
