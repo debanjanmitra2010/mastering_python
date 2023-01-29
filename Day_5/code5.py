@@ -13,40 +13,30 @@ user_choice = int(input("Which method you wanna try (1-Easy, 2-Hard): "))
 password_list = []
 password = ""
 
+for char in range(1, nr_letters + 1):
+    password_list.append(random.choice(letters))
+
+for symbol in range(1, nr_symbols + 1):
+    password_list += random.choice(symbols)
+
+for num in range(1, nr_numbers + 1):
+    password_list += random.choice(numbers)
+          
+for char in password_list:
+    password += char
+    
 #Eazy Level - Order not randomised:
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
 if(user_choice == 1):
-    for char in range(1, nr_letters + 1):
-        password_list.append(random.choice(letters))
-
-    for symbol in range(1, nr_symbols + 1):
-        password_list += random.choice(symbols)
-
-    for num in range(1, nr_numbers + 1):
-        password_list += random.choice(numbers)
-          
-    for char in password_list:
-        password += char
     
     print(password_list)
-    
     print(f"Your password is: {password}")
 
 else:
 
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
-
-    for char in range(1, nr_letters + 1):
-        password_list.append(random.choice(letters))
-
-    for char in range(1, nr_symbols + 1):
-        password_list += random.choice(symbols)
-
-    for char in range(1, nr_numbers + 1):
-        password_list += random.choice(numbers)
-
-    # Shuttle function used to randomize
+# Shuttle function used to randomize
     random.shuffle(password_list)
     print(password_list)
 
