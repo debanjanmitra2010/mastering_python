@@ -16,21 +16,40 @@
 # 171
 # e.g. When you hit run, this is what should happen:
 
-# Converrting Decimal heights to Integer
-student_heights = input("Input a list of student heights ").split()
-for n in range(0, len(student_heights)):
-  student_heights[n] = int(student_heights[n])
+user_choice = int(input("Which method you wanna try (1-without function, 2-using function: "))
 
-total_height = 0
-for height in student_heights:
-  total_height += height
+#For method 2
+# total_height = 0
+# number_of_students = 0
+# average_height =0 
 
-number_of_students = 0
-for student in student_heights:
-  number_of_students += 1
+if(user_choice == 1):
+  #method 1 without using any build in function  
+  # Converting Decimal heights to Integer
+  student_heights = input("Input a list of student heights ").split()
+  for n in range(0, len(student_heights)):
+    student_heights[n] = int(student_heights[n])
 
-average_height = round(total_height / number_of_students)
-print(average_height)
+  total_height = 0
+  for height in student_heights:
+    total_height += height
 
-#method 2 using build in function 
+  number_of_students = 0
+  for student in student_heights:
+    number_of_students += 1
 
+  average_height = round(total_height / number_of_students)
+  print(average_height)
+
+else:
+
+  #method 2 using build in function 
+  student_heights = input("Input a list of student heights ").split()
+  
+  for n in range(0, len(student_heights)):
+    student_heights[n] = int(student_heights[n])
+  
+  total_height = sum(student_heights)
+  number_of_students = len(student_heights)
+  average_height = round(total_height / number_of_students)
+  print(average_height)
