@@ -17,6 +17,8 @@
 # Example Output 2
 # It's not a prime number.
 
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
+
 user_choice = int(input("Do you want to just check a prime number or see it in a range: \n" 
                         "Press 1 for prime check \n"
                         "Press 2 for Prime Number in Range \n "

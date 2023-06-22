@@ -1,3 +1,4 @@
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
 target = 156
 balls = 100
 isWinning = True

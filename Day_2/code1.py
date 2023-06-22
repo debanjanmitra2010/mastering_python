@@ -1,5 +1,5 @@
 print("*****************************************")
-print("Designed by Debanjan")
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
 print("*****************************************")
 num1 = input("Enter any number: ")
 sum1 = 0

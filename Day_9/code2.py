@@ -7,6 +7,8 @@
 # You've been to Moscow and Saint Petersburg.
 # DO NOT modify the travel_log directly. You need to create a function that modifies it.
 
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
+
 travel_log = [
 {
   "country": "France",

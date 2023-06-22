@@ -7,7 +7,7 @@
 
 print("                                         ")
 print("*****************************************")
-print("Designed by Debanjan")
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
 print("*****************************************")
 print("Welcome to Python Pizza Deliveries!")
 size = input("What size pizza do you want? S, M, or L ")

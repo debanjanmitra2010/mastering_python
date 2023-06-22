@@ -35,6 +35,7 @@
 import random
 from art import logo
 
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
 
 def deal_card():
     """Returns a random card from the deck."""

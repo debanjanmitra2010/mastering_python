@@ -1,6 +1,6 @@
 print("                                         ")
 print("*****************************************")
-print("Designed by Debanjan")
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
 print("*****************************************")
 
 fruits=['apples','oranges','bananas','mangoes','grapes','strawberry']

@@ -1,5 +1,5 @@
 print("*****************************************")
-print("Designed by Debanjan")
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
 print("*****************************************")
 print("Welcome to the tip calculator")
 bill = float(input("What was the total bill ? "))

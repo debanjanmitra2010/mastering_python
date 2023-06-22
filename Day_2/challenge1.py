@@ -1,5 +1,5 @@
 print("*****************************************")
-print("Designed by Debanjan")
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
 print("*****************************************")
 age = int(input("Please enter your age: "))
 days = age * 365

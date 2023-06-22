@@ -1,5 +1,5 @@
 print("*****************************************")
-print("Designed by Debanjan")
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
 print("*****************************************")
 print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")

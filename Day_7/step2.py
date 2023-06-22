@@ -1,5 +1,7 @@
 #Step 2
 
+# print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
+
 import random
 word_list = ['apples','oranges','bananas','mangoes','grapes','strawberry']
 chosen_word = random.choice(word_list)

@@ -1,6 +1,8 @@
 import turtle as t
 import random
 
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
+
 t.colormode(255)
 tim = t.Turtle()
 tim.speed("fastest")

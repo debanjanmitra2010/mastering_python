@@ -1,5 +1,7 @@
 #Step 1
 
+# print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
+
 word_list = ['apples','oranges','bananas','mangoes','grapes','strawberry']
 
 #TODO-1 - Randomly choose a word from the word_list and assign it to a variable called chosen_word.

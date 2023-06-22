@@ -6,6 +6,8 @@
         No shortcuts - don't copy-paste to replace the code entirely with a working solution.
         Fix the code so that it works and when you hit submit it should pass all the tests"""
 
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
+
 year = int(input("Which year do you want to check?"))
 
 if year % 4 == 0:

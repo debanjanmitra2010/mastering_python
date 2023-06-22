@@ -1,6 +1,8 @@
 # Import libraries
 from turtle import Turtle, Screen
 
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
+
 # Turtle
 turty = Turtle()
 turty.shape('turtle')

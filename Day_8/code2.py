@@ -18,6 +18,7 @@
 # test_w = 9
 # Example Output
 # You'll need 6 cans of paint.
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
 
 import math
 

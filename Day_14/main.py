@@ -1,6 +1,8 @@
 from game_data import data
 import random
 
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
+
 # Add art.
 from art import logo, vs
 import os

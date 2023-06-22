@@ -4,6 +4,7 @@ import os
 from hangman_words import word_list 
 from hangman_art import stages, logo
 
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
 #function defined for clearing the screen
 def clear():
     os.system('cls' if os.name=='nt' else 'clear')

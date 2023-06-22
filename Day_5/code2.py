@@ -9,6 +9,7 @@
 # In this case, student_scores would be a list that looks like: [78, 65, 89, 86, 55, 91, 64, 89]
 # Example Output
 # The highest score in the class is: 91
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
 
 user_choice = int(input("Which method you wanna try (1-without function, 2-using function: "))
 

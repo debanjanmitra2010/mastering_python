@@ -1,6 +1,6 @@
 from turtle import Turtle, Screen
 from random import randint
-
+print("<<<<<<<<<<<<<<< CODED BY DEBANJAN MITRA >>>>>>>>>>>>>>>")
 is_race_started = False
 
 # Screen
