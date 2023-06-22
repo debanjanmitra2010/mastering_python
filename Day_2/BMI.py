@@ -1,3 +1,6 @@
+print("*****************************************")
+print("Designed by Debanjan")
+print("*****************************************")
 w = float(input("Please enter your weight(kg): "))
 h = float(input("Please enter your height(m): "))
 

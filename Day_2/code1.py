@@ -1,3 +1,6 @@
+print("*****************************************")
+print("Designed by Debanjan")
+print("*****************************************")
 num1 = input("Enter any number: ")
 sum1 = 0
 
@@ -10,7 +13,7 @@ if(len(num2)==2):
     second_digit = num2[1]
     sum2 = sum2 + int(first_digit) + int(second_digit)
 else:
-    Print("Not a two digit number")
+    print("Not a two digit number")
 
 
 #Method1

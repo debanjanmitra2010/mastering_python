@@ -24,6 +24,7 @@ print(user_1.id, user_1.username)
 user_2 = User('002', 'Rocky')
 print(user_2.id, user_2.username)
 
+
 user_1.follow(user_2)
 print(user_1.followers, user_1.following)
 print(user_2.followers, user_2.following)

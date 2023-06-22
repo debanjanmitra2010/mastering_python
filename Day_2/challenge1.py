@@ -1,3 +1,6 @@
+print("*****************************************")
+print("Designed by Debanjan")
+print("*****************************************")
 age = int(input("Please enter your age: "))
 days = age * 365
 weeks = age * 52 

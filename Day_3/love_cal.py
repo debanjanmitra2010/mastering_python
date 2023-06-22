@@ -3,7 +3,7 @@ print("Designed by Debanjan")
 print("*****************************************")
 print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
-name2 = input("What is their name? \n")
+name2 = input("What is her name? \n")
 
 combined_string = name1 + name2
 lower_case_string = combined_string.lower() 
@@ -29,5 +29,5 @@ if (love_score < 10) or (love_score > 90):
 elif (love_score >= 40) and (love_score <= 50):
   print(f"Your score is {love_score}, you are alright together.")
 else:
-  print("Your score is {love_score}")
+  print(f"Your score is {love_score}")
    
