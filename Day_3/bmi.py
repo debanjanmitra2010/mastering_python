@@ -4,14 +4,13 @@ h = float(input("Please enter your height(m): "))
 
 BMI = w/(h**2)
 
-print("Your BMI is: ", int(BMI))
 if(BMI<18.5):
-    print("You are underweight")
+    print(f"Your BMI is {float(BMI)}, you are underweight.")
 elif(BMI>18.5 and BMI<25):
-    print("You are normal weight")
-elif(BMI>25 and BMI<30):
-    print("You are over weight")
-elif(BMI>30 and BMI<35):
-    print("You are obese")
+    print(f"Your BMI is {float(BMI)}, you have a normal weight.")
+elif(BMI>=25 and BMI<30):
+    print(f"Your BMI is {float(BMI)}, you are slightly overweight.")
+elif(BMI>=30 and BMI<35):
+    print(f"Your BMI is {float(BMI)}, you are obese.")
 else:
-    print("You are clinically obese")
+    print(f"Your BMI is {float(BMI)}, you are clinically obese.")
